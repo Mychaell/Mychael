@@ -8,245 +8,7 @@
 		<title>Michael</title>
 		<link rel="stylesheet" href="main.css" />
 
-<style>
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
- img {
- width: 120px;
- border-radius:50%;
- margin-left: 100px;
- margin-top: 10px 
-}
- 
-#container {
- width: 100%;
- font-family: "Gill Sans", sans-serif;
- font-size: 1.3rem;
-}
 
-#header {
- 	border-bottom: 1px solid #FFE244;
- 	padding-bottom: 0px;
- 	margin-bottom: 40px;
- 	background-color: 
-}
-
-h2 {
- 	color: #FFE244;
- 	text-align: center;
- 	font-weight: 800;
- 	font-size: 40px;
-}
-
-#info {
- 	
-}
-
-table {
- 	width: 100%;
- 	border-collapse: collapse;
- 	border-radius: 1em; 
- 	overflow: hidden;
- 	display: flex;
-  justify-content: space-around; 
-  flex-wrap: wrap;
-}
-
-tr {
- 	padding: 5px;
- 	text-align: right;
- 	background-color: #FFE244;
- 	color: black;
- 	border-radius: 1.3rem;
- 	margin: 2px;
- 	width: 300px;
-}
-
-td {
- 	padding: 1em;
-  background: #ddd;
-  border-bottom: 2px solid white; 
-}
-
-.left-table {
- 	padding: 15px;
- 	text-align: left;
- 	background-color: #FFE244;
- 	color: black;
-}
-
-.right-table {
- 	padding: 15px;
- 	text-align: right;
- 	background-color: #38BF00;
- 	color: white;
-}
-
-a {
-    color: darkkhaki; 
-    display: inline-block; 
-}
-
-a:hover {
-    color: grey; 
-}
-
-a:link {
-    text-decoration: none;
-}
-
-html {
-  font-size: 50%;
-}
-
-.form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.fields {
-  display: block;
-  border-radius: 1rem;
-  width: 23rem;
-  padding: 1em;
-  border: 1px solid black;
-}
-
-textarea {
-  border-radius: 0.9rem;
-  padding: 2px;
-  border: 1px solid black;
-}
-
-#button {
-  background-color: black;
-  border: none;
-  border: 2px solid red;
-  color: #6296AD;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 4px;
-  
-}
-
-#git1 {
-  padding: 15px;
- 	text-align: left;
- 	background-color: white;
- 	color: black;
-}
-
-#git2 {
-  padding: 15px;
- 	text-align: right;
- 	background-color: black;
- 	color: white;
-}
-
-#tweet1 {
-  padding: 15px;
- 	text-align: left;
- 	background-color: white;
- 	color: blue;
-}
-
-#tweet2 {
-  padding: 15px;
- 	text-align: right;
- 	background-color: blue;
- 	color: white;
-}
-
-#wame1 {
-  padding: 15px;
- 	text-align: left;
- 	background-color: white;
- 	color: green;
-}
-
-#wame2 {
-  padding: 15px;
- 	text-align: right;
- 	background-color: green;
- 	color: white;
-}
-
-/*
- }
- #mainText {
-  text-align: center;
-  background: #DBDBDB;
-  font-family: "Gill Sans", sans-serif;
- font-size: 1.3rem;
- color: #4a5568;
- width: 100%;
- border-bottom-right-radius: 1.3rem;
- border-top-left-radius: 1.3rem;
- border-top-right-radius: 1.3rem;
- border-bottom-left-radius: 0.3rem;
- padding-top: 1.0rem;
- border-style: dashed;
- border: 2px solid white;
- }
- #contact{
-  text-align: center;
- }
- #submit {
- background: #FEFD99;
- padding: 1.0rem 2.5rem;
- border-bottom-right-radius: 1.3rem;
- border-top-left-radius: 1.3rem;
- border-top-right-radius: 1.3rem;
- border-bottom-left-radius: 0.3rem;
- color: #083e9e;
- font-family: sans-serif;
- font-size: 2.5rem;
- }
- #head1 {
- 	color: red;
- }
- input[type="text"],
-[type="email"] {
- background: #edf2f7;
- border-radius: 8px;
-}
-textarea	{
-	background: #edf2f7;
-}
- 
-.button {
-	 
-    border: 2px solid red;
-    color: #6296AD;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-   
-  */
-  
-  
-  
-  
-  
-</style>
 	</head>
 	<body>
 		<div id="container">
@@ -263,7 +25,8 @@ textarea	{
 
 			<div id="info">
 				<h2>Basic Info</h2>
-				<table>
+				<div class="table">
+				  <table>
 					<tr>
 						<td class="left-table">Date of Birth</td>
 						<td class="right-table">10<sup>th</sup> May, 1999</td>
@@ -284,6 +47,8 @@ textarea	{
 						<td class="right-table">Port Harcourt</td>
 					</tr>
 				</table>
+				</div>
+				
 			</div>
 			<!--Basic info ends here-->
 
@@ -292,7 +57,8 @@ textarea	{
 			<div id="social">
 
 				<h2>Social Links</h2>
-				<table>
+				<div class="table">
+				  <table>
 					<tr>
 						<td id="git1">GitHub</td>
 						<td id="git2"><a href="https://github.com/mychael">Mychael</a>
@@ -308,6 +74,8 @@ textarea	{
 						<td id="wame2"><a href="https://wa.me/2348142367332">Message Me</a>
 					</tr>
 				</table>
+				</div>
+				
 			</div>
 			
 			<div id="contact">
@@ -318,15 +86,22 @@ textarea	{
 				<form class="form">
 					<input class="fields" type="text" placeholder="Name" name="Name" required="">
 					<br>
+					<br>
 					<input class="fields" type="email" placeholder="Email" name="Email" required="">
 					<br>
+					<br />
 					<input class="fields" type="number" placeholder="Phone" name="Phone">
 					<br>
+					<br />
 					<textarea placeholder="Enter your message" rows="10" cols="30" required=""></textarea>
+					<br />
 					<br />
 					 <input type="submit" name="Submit" id="button">
 				</form>
 			</div>
 		</div>
+		<footer>
+		  Created by Michael &copy 2020
+		</footer>
 	</body>
 </html>

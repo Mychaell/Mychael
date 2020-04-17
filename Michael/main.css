@@ -4,9 +4,126 @@
     margin: 0;
     padding: 0;
     box-sizing: inherit;
+    font-family: "Gill Sans", Sans-Serif;
+}
+body {
+  
+  font-family: "Segoe UI", sans-serif;
+  width: 100%;
+  margin: 0;
 }
 
+#container {
+  margin: 0px;
+  background-color: #F0A07C;
+}
 
-/* // 500px / 16px = 31.25em; 
-@media only screen and (max-width: 31.25em) { 
-*/
+#header {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  
+}
+
+#header img {
+  border-radius: 50%;
+  width: 80px;
+  padding-top: 5px;
+}
+
+#info {
+  background-color: #4A274F;
+  color: #F0A07C;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 4px;
+  padding: 15px;
+}
+
+h2 {
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-bottom-spacing: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type="text"],
+[type="number"],
+[type="email"],
+select {
+ background: #edf2f7;
+}
+
+.left-table {
+  text-align: left;
+  background-color: white;
+  padding-top: 5px;
+  padding-right: 35px;
+  padding-bottom: 5px;
+  
+}
+
+.right-table {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #F0A07C;
+  color: #4A274F;
+  padding-right: 1px;
+}
+
+td {
+  margin-bottom: 2px;
+}
+
+#social {
+  background-color: #358597;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+  margin-top: 5px;
+}
+
+#contact {
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  color: #F0A07C;
+}
+
+.fields {
+  padding: 5px;
+  min-width: 250px;
+  max-width: 700px;
+  height: 25px;
+  border-radius: 0.5rem;
+  border: none;
+  
+}
+
+textarea {
+  max-width: 700px;
+  min-width: 250px;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 5px;
+  background: #edf2f7;
+}
+
+#button {
+  padding: 10px 0px 10px 0px;
+  border: none;
+  background: ;
+  min-width: 220px;
+  max-width: 600px;
+  background-color: #F0A07C;
+  border-radius: 0.7rem;
+}
